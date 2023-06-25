@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+$main: #f36737;
+$main-bg: linear-gradient(90deg, #e95567 0%, #f36735 100%);
+$card-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+@media only screen and (max-width: 1300px) {
+  .hero-section .content {
+    padding-top: 200px;
+    margin-left: 16%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+#btn{
+  min-width: 210px !important;
+}
+}
+@media only screen and (max-width: 1060px) {
+#btn{
+  min-width: 190px !important;
+}
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 34px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .hero-section .content {
+    margin-left: 24%;
+    padding-top: 180px;
+  }
+}
+@media (min-width: 1200px) {
+
+.container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1100px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  
+  .header .navbar .nav-link {
+    // padding: 10px 5px !important; 
+    .btn {
+      padding: 0px !important;
+      background: transparent !important;
+      height: auto !important;
+      color: black !important;
+      width: auto !important;
+      font-weight: 500;
+    }
+  }
+
+  nav{
+    .navbar-collapse{
+      padding: 10px 0px;
+      position: absolute;
+top: 97px;
+      width: 90%;   
+      min-height: auto;
+     left: 0;
+     right: 0;
+      margin: 0px auto;
+      background-color: white;
+    }
+    .nav-link{
+      padding: 5px 15px !important;
+      font-size: 15px;
+    }
+  }
+
+  #row-1st{
+  margin-right: 0px !important;
+}
+  #row-2nd{
+  margin-right: 0px !important;
+}
+  .header {
+    background-color: white;
+    // box-shadow: $card-shadow;
+  }
+ 
+#footer1{
+  .col-lg-6{
+    margin-top: 20px;
+  }
+}
+  .container {
+    padding: 0px 20px !important;
+  }
+
+@media only screen and (max-width: 768px) {
+  .top-nav{
+.top-items{
+    justify-content: center !important;
+  }
+  }
+  
+#bestdeals{
+  img{
+    width: 90px;
+    height: 90px;
+  }
+  p{
+    font-size: 13px;
+    line-height: 2px;
+  }
+}
+}
+
+#footer2{
+  .nav-link{
+    font-size: 15px;
+  }
+}
+}
+
+@media only screen and (max-width: 400px){
+ .top-nav{
+.top-items{
+    a{
+      font-size: 12px;
+    }
+  }
+  }
+}
+@media only screen and (max-width: 576px){
+  nav{
+    .navbar-collapse{
+      position: absolute;
+      left: 0;
+      top: 84px;
+      width: 100%;
+      background-color: white;
+      z-index: 78979878978789;
+    }
+    .nav-link{
+      padding: 10px 0px;
+    }
+  }
+}
+
+@media only screen and (max-width:574px){
+#form{
+    .nav-link{
+      font-size: 12px !important;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .form-check-label{
+  font-size: 12px !important;
+}
+  
+}
+
+
+}
